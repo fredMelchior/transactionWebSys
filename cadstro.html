@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div>
+            <a href="index.html">Home</a>
+        </div>
+        <ul>
+            <li><a href="receita.html">Receita</a></li>
+            <li><a href="despesa.html">Despesa</a></li>
+            <li><a href="acompanhamento.html">Acompanhamento</a></li>
+            <li><a href="">Cadastro</a></li>
+        </ul>
+    </header>
+    <div class="container">
+        <h1>Cadastro</h1>
+
+        <form action="" class="_cadastro">
+            <h3>Cadastrar novo:</h3>
+            <label for="categoria">Categoria:</label>
+            <input type="text" id="categoria" name="ategoria" required>
+        
+            <label for="tipo">Tipo:</label>
+            <label for="despesa">
+                <input type="radio" id="despesa" name="tipo" value="despesa" required>
+                Despesa
+            </label>
+            <label for="receita">
+                <input type="radio" id="receita" name="tipo" value="receita" required>
+                Receita
+            </label>
+        
+            <button type="submit">Cadastrar</button>
+        </form>
+
+        <table class="_cadastrados">
+            <thead>
+                <th class="receita_cad">Receita</th>
+                <th class="despesa_cad">Despesas</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Vendas</td>
+                    <td>Fornecedores</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
